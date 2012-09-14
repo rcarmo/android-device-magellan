@@ -9,7 +9,7 @@ This repository is an attempt at cleaning up a set of rather ugly hacks I perfor
 
 Still, one must make an effort at documenting stuff...
 
-## Build instructions ##
+## Build Instructions ##
 
 Follow the [original instructions][x86] first to make sure you understand the process and have a working `repo` command, build tools, etc.
 
