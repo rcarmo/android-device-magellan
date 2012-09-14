@@ -1,7 +1,7 @@
 android-device-magellan
 =======================
 
-This is am Android X86 device tree for the Magalhães Classmate PC.
+This is a Android X86 device tree for the Magalhães Classmate PC.
 
 ## Current Status ##
 
