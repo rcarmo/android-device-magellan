@@ -25,7 +25,9 @@ The generic repository setup steps still apply:
 	$ cd device
 	$ git clone https://github.com/rcarmo/android-device-magellan.git magellan
 
-And then run `lunch` to see whether you get a `magellan-eng` entry.
+You'll also need to manually copy the files under the firmware directory to `device/common/firmware` (at least temporarily until I figure out a better way to do this)
+
+And then run `lunch` to see whether you get a `magellan-eng` entry, select it and build.
 
 
 [x86]: http://www.android-x86.org/getsourcecode
