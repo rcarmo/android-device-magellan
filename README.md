@@ -27,7 +27,13 @@ The generic repository setup steps still apply:
 
 You'll also need to manually copy the files under the firmware directory to `device/common/firmware` (at least temporarily until I figure out a better way to do this)
 
-And then run `lunch` to see whether you get a `magellan-eng` entry, select it and build.
+The remainder of the build process is pretty much standard:
 
+	$ cd android-x86
+	$ . build/envsetup.sh
+
+And then run `lunch` to see whether you get a `magellan-eng` entry, select it and build:
+
+	$ m -j2 iso_img
 
 [x86]: http://www.android-x86.org/getsourcecode
