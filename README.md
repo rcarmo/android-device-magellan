@@ -17,7 +17,7 @@ The generic repository setup steps still apply:
 
 	$ mkdir android-x86
 	$ cd android-x86
-        $ repo init -u git://android-x86.git.sf.net/gitroot/android-x86/x86/platform/manifest.git -b ics-x86
+	$ repo init -u git://android-x86.git.sf.net/gitroot/android-x86/x86/platform/manifest.git -b ics-x86
 	$ repo sync
 
 ...except you'll need to check this repo inside the device tree (yes, one could use a `local_manifest.xml` file, but that's ordinarily too much hassle):
