@@ -25,7 +25,7 @@ The generic repository setup steps still apply:
 	$ cd device
 	$ git clone https://github.com/rcarmo/android-device-magellan.git magellan
 
-You'll also need to manually copy the files under the firmware directory to `device/common/firmware` (at least temporarily until I figure out a better way to do this)
+You'll also need to manually copy the files under the firmware directory to `device/common/firmware` (at least temporarily until I figure out a better way to do this - AOSP's build system lacks some of the niceties I'm getting used to in CyanogenMod)
 
 The remainder of the build process is pretty much standard:
 
@@ -35,5 +35,7 @@ The remainder of the build process is pretty much standard:
 And then run `lunch` to see whether you get a `magellan-eng` entry, select it and build:
 
 	$ m -j2 iso_img
+
+The resulting `.iso` image can then be booted from a USB stick, and will, of course, lack a lot of niceties you may be used to from other Android builds.
 
 [x86]: http://www.android-x86.org/getsourcecode
